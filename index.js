@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const Shape = require('./Shape'); // Assuming you have a Shape class defined in Shape.js
+const Shape = require('Shape'); // Assuming you have a Shape class defined in Shape.js
 
 const promptUser = async () => {
   const userInput = await inquirer.prompt([
